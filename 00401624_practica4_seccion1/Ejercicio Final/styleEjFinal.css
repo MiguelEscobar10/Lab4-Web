@@ -1,0 +1,48 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  color: #333;
+}
+
+.container {
+  text-align: center;
+  background-color: #ffffff;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  width: 90%;
+  max-width: 600px;
+}
+
+h1 {
+  color: #4a4a4a;
+  margin-bottom: 25px;
+}
+
+.recordatorio {
+  background-color: #eef7ff;
+  border-left: 5px solid #007bff;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.recordatorio p {
+  margin: 0;
+  font-size: 1.1em;
+  line-height: 1.6;
+}
+
+.recordatorio .dia-semana {
+  font-weight: bold;
+  color: #0056b3;
+}
+
+.recordatorio .actividad {
+  margin-top: 10px;
+  display: block;
+}
